@@ -20,7 +20,7 @@ To learn how to write your own Udon script for avatar scaling, read our [avatar 
 | **disableAvatarScaling** | bool | false | | If enabled, players in your world will not be able to choose their own avatar scale, even if you enabled it on VRChat.com. |
 | **minimumHeight** | float | 0.2 | The minimum avatar eye height in meters which players can choose. |
 | **maximumHeight** | float | 5 | The maximum avatar eye height in meters which players can choose. |
-| **alwaysEnforceHeight** | bool | false | If enabled, players who switch to use a very tall or very short avatar will automatically be set to "minimumHeight" or "maximumHeight". 
+| **alwaysEnforceHeight** | bool | true| If enabled, players who switch to use a very tall or very short avatar will automatically be set to "minimumHeight" or "maximumHeight". 
 
 ## Examples
 
